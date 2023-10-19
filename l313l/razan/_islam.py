@@ -1,6 +1,6 @@
 #from here loaded islamic 
 
-from SedUb.Config import roza_config 
+from Afrotoo.Config import roza_config 
 
 razan = [
 """
