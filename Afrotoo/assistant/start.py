@@ -37,7 +37,7 @@ async def start(event):
             buttons=[
                                      [Button.inline("عرض المستخدمين 📬", data="users"), Button.inline(
                                          "اوامر البـوت ⚒️", data="gibcmd")],
-                                     [Button.url("المطـور 🔗", "https://t.me/NUNUU"), Button.inline(
+                                     [Button.url("المطـور 🔗", "https://t.me/lUl_UI"), Button.inline(
                                          "اوامر الزغـرفة", data="rozzag")],
 
                                  ])
@@ -51,8 +51,8 @@ async def start(event):
             message=starttext,
             link_preview=False,
             buttons=[
-                [custom.Button.inline("تنـصيب سيدثون  🐍", data="deploy")],
-                [Button.url("تحتاج مسـاعدة ❓", "https://t.me/NUNUU")],
+                [custom.Button.inline("تنـصيب عفرتو 🐍", data="deploy")],
+                [Button.url("تحتاج مسـاعدة ❓", "https://t.me/lUl_UI")],
             ],
         )
 
@@ -67,7 +67,7 @@ async def help(event):
             message="**لتـنصيب البـوت الخاص بك اتبـع الخطـوات في الاسفـل وحاول واذا لم تستطيع تفضل الى مجموعة المساعدة ليساعدوك 🧸♥**.",
             buttons=[
                 [Button.url("شرح التنصيب 📺", "https://youtu.be/ATAgbLGzr7w")],
-                [Button.url("كروب المساعدة ❓", "https://t.me/tipthon_help")],
+                [Button.url("كروب المساعدة ❓", "https://t.me/soursafrotooby")],
             ],
         )
 
@@ -107,7 +107,7 @@ async def starkislub(event):
 
 @tgbot.on(events.NewMessage(pattern="^/alive", func=lambda e: e.sender_id == bot.uid))
 async def starkislub(event):
-    razan = "**𝗦𝞝𝗗𝙏𝙃𝙊𝙉 𝗨𝘀𝗲𝗿𝗯𝗼𝘁**\n•━═━═━═━═━━═━═━═━═━•‌‌\n**- حالة البوت **  يعمـل بنجـاح\n**- اصدار التليثون  **: 1.23.0\n**- اصدار البايثون **: 3.9.6\n**- يوزرك ** {mention}\n**- CH : @E9N99\n•━═━═━═━═━━═━═━═━═━•‌‌\n"
+    razan = "**AFROTOO 𝗨𝘀𝗲𝗿𝗯𝗼𝘁**\n•━═━═━═━═━━═━═━═━═━•‌‌\n**- حالة البوت **  يعمـل بنجـاح\n**- اصدار التليثون  **: 1.23.0\n**- اصدار البايثون **: 3.9.6\n**- يوزرك ** {mention}\n**- CH : @soursafrotooby\n•━═━═━═━═━━═━═━═━═━•‌‌\n"
     await event.reply(razan)
     
     
@@ -217,7 +217,7 @@ async def settings(event): #    قـسـم  الزغرفـة لأسـماء ال
                                          "║ رجوع ║", data="rozname")]
                                  ])
     else:
-        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @E9N99", alert=True)
+        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @soursafrotooby", alert=True)
 
 # شنو تـدور  :)
 @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"RR7PP1")))
