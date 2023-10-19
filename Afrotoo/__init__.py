@@ -5,7 +5,7 @@ import heroku3
 from glob import *
 from .Config import Config
 from .core.logger import logging
-from .core.session import pkg_name
+from .core.session import afrotootlethon
 from .sql_helper.globals import addgvar, delgvar, gvarstatus
 
 __version__ = "3.1.3"
