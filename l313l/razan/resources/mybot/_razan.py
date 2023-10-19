@@ -1,5 +1,5 @@
-from SedUb.Config import Config
-from SedUb.plugins import mention
+from Afrotoo.Config import Config
+from Afrotoo.plugins import mention
 
 RAZAN = Config.TG_BOT_USERNAME
 # for alive
