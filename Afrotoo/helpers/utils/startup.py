@@ -12,7 +12,7 @@ from telethon import Button, functions, types, utils
 from telethon.sync import TelegramClient
 from telethon.tl.functions.channels import JoinChannelRequest
 from telethon.errors import FloodWaitError
-from SedUb import BOTLOG, BOTLOG_CHATID, PM_LOGGER_GROUP_ID
+from عفرتو import BOTLOG, BOTLOG_CHATID, PM_LOGGER_GROUP_ID
 from ..Config import Config
 from aiohttp import web
 from ..core import web_server
@@ -27,7 +27,7 @@ from ..sql_helper.global_collection import (
 from ..sql_helper.globals import addgvar, delgvar, gvarstatus
 from .pluginmanager import load_module
 from .tools import create_supergroup
-LOGS = logging.getLogger("SedUb")
+LOGS = logging.getLogger("عفرتو")
 ##BiLaL hands here
 cmdhr = Config.COMMAND_HAND_LER
 bot = l313l
