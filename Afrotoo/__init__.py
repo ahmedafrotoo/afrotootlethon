@@ -10,7 +10,7 @@ from .sql_helper.globals import addgvar, delgvar, gvarstatus
 
 __version__ = "3.1.3"
 __license__ = "كـتابة وتـعديل فريـق عفرتو"
-__author__ = "سيدثون <https://T.ME/soursafrotoo>"
+__author__ = "عفرتو <https://T.ME/soursafrotoo>"
 __copyright__ = "Afrotoo TEAM (C) 2021 - 2023  " + __author__
 
 l313l.version = __version__
