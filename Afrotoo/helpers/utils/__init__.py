@@ -12,7 +12,7 @@ while flag:
         from .format import *
 
         break
-    except Afrotoo as e:
+    except ModuleNotFoundError as e:
         install_pip(e.name)
         check += 1
         if check > 5:
