@@ -12,7 +12,7 @@ from telethon import Button, functions, types, utils
 from telethon.sync import TelegramClient
 from telethon.tl.functions.channels import JoinChannelRequest
 from telethon.errors import FloodWaitError
-from SedUb import BOTLOG, BOTLOG_CHATID, PM_LOGGER_GROUP_ID
+from Afrotoo import BOTLOG, BOTLOG_CHATID, PM_LOGGER_GROUP_ID
 from ..Config import Config
 from aiohttp import web
 from ..core import web_server
@@ -216,7 +216,7 @@ async def load_plugins(folder, extfolder=None):
         path = f"{extfolder}/*.py"
         plugin_path = extfolder
     else:
-        path = f"SedUb/{folder}/*.py"
+        path = f"Afrotoo/{folder}/*.py"
         plugin_path = f"Afrotoo/{folder}"
     files = glob.glob(path)
     files.sort()
