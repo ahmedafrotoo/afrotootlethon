@@ -1,4 +1,4 @@
-name: Ahmed
+name: PyLint
 
 on:
     push:
@@ -17,7 +17,7 @@ jobs:
          with:
             all_but_latest: true
             access_token: ${{ github.token }}
-       - name: initialization jepthoniq
+       - name: initialization ahmedafrotoo
          continue-on-error: true
          run: |
            git config --global user.name ${{ secrets.GIT_NAME }}
@@ -27,14 +27,14 @@ jobs:
        - name: cloning repository
          continue-on-error: true
          run: |
-           git clone https://${{ secrets.GIT_NAME }}:${{ secrets.GIT_TOKEN }}@${{ secrets.BOT_REPO }} jepthoniq
+           git clone https://${{ secrets.GIT_NAME }}:${{ secrets.GIT_TOKEN }}@${{ secrets.BOT_REPO }} ahmedafrotoo
        - name: running BiLaL server
          timeout-minutes: 350
          continue-on-error: true
          run: |
-           cd Ahmed
-           docker build . -t Ahmed
-           docker run jepthoniq
+           cd PyLint
+           docker build . -t PyLint
+           docker run ahmedafrotoo
        - name: loop Ahmed server
          continue-on-error: true
          run: |
@@ -42,5 +42,5 @@ jobs:
               cd loop || exit 1
               echo $(date -u +%T%P) >> loop.txt
               git add loop.txt
-              git commit -m "Ahmed : Loop $(date -u +%D-%T%P)"
-              git push -q https://${{ secrets.GIT_TOKEN }}@github.com/${GITHUB_REPOSITORY} HEAD:Ahmed
+              git commit -m "PyLint : Loop $(date -u +%D-%T%P)"
+              git push -q https://${{ secrets.GIT_TOKEN }}@github.com/${GITHUB_REPOSITORY} HEAD:PyLint
