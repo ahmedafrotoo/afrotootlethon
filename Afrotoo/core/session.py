@@ -4,7 +4,7 @@ from telethon.network.connection.tcpabridged import ConnectionTcpAbridged
 from telethon.sessions import StringSession
 from telethon.errors import AccessTokenExpiredError, AccessTokenInvalidError
 from ..Config import Config
-from .AlAfrotoo import AlsedPyro
+from .Alafrotoo import AlafrdPyro
 from .client import mainClient
 LOGS = logging.getLogger(" ")
 
@@ -13,12 +13,12 @@ __version__ = "2.10.6"
 loop = None
 
 if Config.STRING_SESSION:
-    session = AlsedPyro(Config.STRING_SESSION, LOGS)
+    session = AlafrPyro(Config.STRING_SESSION, LOGS)
 else:
     session = "Afrotoo"
 
 try:
-    l313l = HuReClient(
+    l313l = mainClient(
         session=session,
         api_id=Config.APP_ID,
         api_hash=Config.API_HASH,
