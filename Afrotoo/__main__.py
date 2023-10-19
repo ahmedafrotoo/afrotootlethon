@@ -16,10 +16,10 @@ from .utils import (
     saves,
 )
 
-LOGS = logging.getLogger("Afrotoo")
+LOGS = logging.getLogger("سورس عفرتو")
 
 print(SedUb.__copyright__)
-print("Licensed under the terms of the " + SedUb.__license__)
+print("Licensed under the terms of the " + Afrotoo.__license__)
 
 cmdhr = Config.COMMAND_HAND_LER
 
