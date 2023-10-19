@@ -2,9 +2,8 @@ import sys
 from Afrotoo.core.logger import logging
 from telethon.network.connection.tcpabridged import ConnectionTcpAbridged
 from telethon.sessions import StringSession
-from telethon.errors import AccessTokenExpiredError, AccessTokenInvalidError
+
 from ..Config import Config
-from .Afrotoo import l313l
 from .client import mainClient
 LOGS = logging.getLogger(" ")
 
