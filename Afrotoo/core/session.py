@@ -5,7 +5,7 @@ from telethon.sessions import StringSession
 from telethon.errors import AccessTokenExpiredError, AccessTokenInvalidError
 from ..Config import Config
 from .AlAfrotoo import AlsedPyro
-from .client import HuReClient
+from .client import mainClient
 LOGS = logging.getLogger(" ")
 
 __version__ = "2.10.6"
